@@ -25,6 +25,7 @@ AI 之間不直接對話，透過檔案傳話。輪次編號 R1、R2…依序遞
 | 資料夾 | 放什麼 | 檔名範例 |
 |---|---|---|
 | `docs/specs/` | Pei 填的遊戲企劃單（格式見 `docs/analysis/2026-10-11_rpg-common-patterns.md` 第四節） | `<遊戲代號>.md` |
+| `docs/prompts/` | 給各 AI 的固定指令（例如內容初稿的輸出格式） | `chatgpt-content-draft.md` |
 | `docs/analysis/` | 參考作品分析、技術調查 | `2026-10-11_pixel-farm-analysis.md` |
 | `docs/reviews/` | 審查意見 | `CHATGPT_REVIEW_<遊戲代號>_R1.md` |
 | `docs/responses/` | 逐條回應與修改紀錄 | `CLAUDE_RESPONSE_<遊戲代號>_R1.md` |
