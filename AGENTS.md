@@ -24,6 +24,7 @@ AI 之間不直接對話，透過檔案傳話。輪次編號 R1、R2…依序遞
 
 | 資料夾 | 放什麼 | 檔名範例 |
 |---|---|---|
+| `docs/specs/` | Pei 填的遊戲企劃單（格式見 `docs/analysis/2026-10-11_rpg-common-patterns.md` 第四節） | `<遊戲代號>.md` |
 | `docs/analysis/` | 參考作品分析、技術調查 | `2026-10-11_pixel-farm-analysis.md` |
 | `docs/reviews/` | 審查意見 | `CHATGPT_REVIEW_<遊戲代號>_R1.md` |
 | `docs/responses/` | 逐條回應與修改紀錄 | `CLAUDE_RESPONSE_<遊戲代號>_R1.md` |
@@ -55,7 +56,7 @@ AI 之間不直接對話，透過檔案傳話。輪次編號 R1、R2…依序遞
 ## 技術慣例
 
 - 遊戲以**單一 HTML 檔**為主（HTML + CSS + JavaScript，不用框架），存檔用 localStorage。
-- 遊戲資料（事件卡、角色、台詞）和遊戲規則、畫面分開寫，換主題時只改資料區。
+- 遊戲資料（事件卡、角色、台詞）和遊戲規則、畫面分開寫，換主題時只改資料區。RPG 一律照「五層骨架」拆（見 `docs/analysis/2026-10-11_rpg-common-patterns.md`）。
 - 每個遊戲維護一份回歸測試清單，每次修改後逐項確認。
 - 每個新遊戲開新 repo，帳號 `daimg49-gif`，避免蓋掉已完成的遊戲。
 - 給學生的文字：語氣帶挑戰性、鼓勵自己思考；選項不要寫成一眼就看得出正確答案的道德題。
