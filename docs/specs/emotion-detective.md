@@ -97,11 +97,11 @@
 
 | 章 | 主題 | 要分辨的細詞 | 跨章答案 | 腳本 | 狀態 |
 |---|---|---|---|---|---|
-| 1 | 開心 | 興奮、得意、自豪、感激、放心 | 失望（第二章） | `emotion-detective-ch1-script.md` | 腳本待確認 |
-| 2 | 難過 | 失望、寂寞、委屈、捨不得 | 丟臉（第三章） | `emotion-detective-ch2-script.md` | 腳本待確認 |
+| 1 | 開心 | 興奮、得意、自豪、感激、放心 | 失望（第二章） | `emotion-detective-ch1-script.md` | 腳本已確認 |
+| 2 | 難過 | 失望、寂寞、委屈、捨不得 | 丟臉（第三章） | `emotion-detective-ch2-script.md` | 腳本已確認 |
 | 3 | 生氣 | 不公平、挫折、被冒犯、丟臉 | — | `emotion-detective-ch3-script.md` | v4 已上線 |
 | 4 | 害怕 | 緊張、擔心、焦慮 | 丟臉（第三章） | `emotion-detective-ch4-script.md` | 腳本已確認 |
-| 5 | 討厭 | 噁心、不耐煩、嫉妒、尷尬 | 寂寞（第二章）、被冒犯（第三章） | `emotion-detective-ch5-script.md` | 腳本待確認 |
+| 5 | 討厭 | 噁心、不耐煩、嫉妒、尷尬 | 寂寞（第二章）、被冒犯（第三章） | `emotion-detective-ch5-script.md` | 腳本已確認 |
 
 共通規則：大方向的詞（開心、難過、生氣、害怕、討厭）不能結案；說對細詞後要從線索本挑證據。
 
